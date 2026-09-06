@@ -1,0 +1,89 @@
+
+.title
+{
+text-align: center;
+font-family: monospace;
+font-size: 50px;
+}
+.subtitle
+{
+text-align: center;
+font-family: monospace;
+font-size: 20px;
+}
+.header
+{
+font-family: monospace;
+font-size: 25px;
+}
+.top-left-logo
+{
+    display: flex;
+    justify-content: left;
+    justify-content: top;
+    width: 250px;
+}
+.centered-image
+{
+height: 300px;
+width: auto;
+object-fit: scale-down;
+}
+.horizontal-scroll-snap
+{
+    scroll-snap-type: x mandatory;
+}
+.scroll-button
+{
+    text-align: center;
+    scroll-snap-align: center;
+    font-size: 400%;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+.scrollable-container
+{
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-left: auto;
+    margin-right: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.inline-container
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.mirror
+{
+    transform: scaleX(-1);
+}
+.navbar
+{
+    text-align: center;
+    font-family: monospace;
+}
+.image-fit-row
+{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.image-fit-row img
+{
+height: 200px;
+width: 200px;
+object-fit: cover;
+object-position: center;
+}
